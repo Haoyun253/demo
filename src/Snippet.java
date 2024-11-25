@@ -7,7 +7,10 @@ public class Snippet {
 	    private void connectToDatabase() {
 	    	
 	        String url="jdbc:mysql://localhost:3306/my_db?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8&autoReconnect=true&useSSL=false&allowMultiQueries=true&useAffectedRows=true";
+<<<<<<< master
 	        String user = "root";
+=======
+>>>>>>> 259da0a main8
 	        String password = "asd123";
 	        try {
 	            Class.forName("com.mysql.cj.jdbc.Driver");

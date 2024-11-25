@@ -16,6 +16,7 @@ public class Snippet {
 	        } catch (ClassNotFoundException | SQLException e) {
 	            System.err.println("Error connecting to the database.");
 	            e.printStackTrace();
+	            System.err.println("Error connecting to the database."); 
 	        }
 	    }
 }
